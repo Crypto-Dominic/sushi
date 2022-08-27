@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.body-text h1{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 243px;
+    top: 20px;
+  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 63px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.body-text .rectangle1{
+  box-sizing: border-box;
+  position: absolute;
+  width: 120px;
+  height: 550px;
+  left: 57px;
+  top: 25px;
+  box-shadow: 100px solid #0C0B0B; /*will soon implement*/
+  background: #0C0B0B;
+  border-radius: 24px;
+}
+
+.body-text .rectangle2{
+  position: absolute;
+  width: 280px;
+  height: 5px;
+  left: 243px;
+  top: 79px;
+  background: #F1D5BB;
+}
+
+.body-text .rectangle3{
+  position: absolute;
+  width: 120px;
+  height: 72px;
+  left: 57px;
+  top: 235px;
+  background: #F1D5BB;
+}
+
+.body-text .letter-s{
+  position: absolute;
+  width: 51px;
+  height: 90px;
+  left: 96px;
+  top: 50.65px;
+  font-family: 'Baloo Bhai 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 102px;
+  /* identical to box height */
+ color: #F1D5BB;
+}
+
+
+.body-text .home-icon{
+  box-sizing: border-box;
+  height: 40px;
+  width: 43px;
+  position: absolute;
+  margin: 30px 0;
+  left: 6.88%;
+  right: 90.35%;
+  top: 20.7%;
+  bottom: 75.3%;
+  color: #FFFFFF;
+}
+
+.body-text .spoons{
+  position: absolute;
+  left: 6.88%;
+  right: 90.35%;
+  top: 250px;
+  bottom: 61.7%;
+  color: #fff;
+  height: 40px;
+  width: 43px;
+}
+
+.body-text .cart{
+  position: absolute;
+  left: 6.88%;
+  right: 90.35%;
+  top: 345px;
+  bottom: 46.4%;
+  height: 40px;
+  width: 43px;
+  color: #ffffff;
+}
+
+.body-text .map{
+  position: absolute;
+  left: 7.01%;
+  right: 90.56%;
+  height: 40px;
+  width: 43px;
+  top: 400px;
+  bottom: 31.1%;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
+.body-text .contact{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 7%;
+  margin: 20px 0;
+  top: 74%;
+  color: #ffffff;
+}
+
+.body-text .food1{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 243px;
+  top: 105px;
+
+  background: url(food-1.png);
+  border-radius: 2px;
+}
+
+.body-text .food2{
+  position: absolute;
+width: 220px;
+height: 220px;
+left: 533px;
+top: 105px;
+
+background: url(food-2.png);
+border-radius: 2px;
+}
+
+.body-text .food3{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 823px;
+  top: 105px;
+
+  background: url(food-3.png);
+  border-radius: 2px;
+}
+
+.body-text .food4{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 1113px;
+  top: 105px;
+
+  background: url(food-4.png);
+  border-radius: 2px;
+}
+
+.body-text .food5{
+  position: absolute;
+width: 220px;
+height: 220px;
+left: 244px;
+top: 365px;
+
+background: url(food-5.png);
+border-radius: 2px;
+}
+
+.body-text .food6{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 534px;
+  top: 365px;
+
+  background: url(food-6.png);
+  border-radius: 2px;
+}
+
+.body-text .food7{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 824px;
+  top: 365px;
+
+  background: url(food-7.png);
+  border-radius: 2px;
+}
+
+.body-text .food8{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 1114px;
+  top: 365px;
+
+  background: url(food-8.png);
+  border-radius: 2px;
+}
+
+.body-text .f1{
+  position: absolute;
+width: 130px;
+height: 25px;
+left: 310px;
+top: 324px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height */
+color: #000000;
+}
+
+.body-text .f2{
+  position: absolute;
+  width: 101px;
+  height: 25px;
+  left: 590px;
+  top: 324px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.body-text .f3{
+  position: absolute;
+  width: 91px;
+  height: 25px;
+  left: 889px;
+  top: 324px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+}
+
+.body-text .f4{
+  position: absolute;
+  width: 176px;
+  height: 25px;
+  left: 1137px;
+  top: 324px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+
+.body-text .f5{
+  position: absolute;
+  width: 161px;
+  height: 25px;
+  left: 278px;
+  top: 585px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+}
+.body-text .f6{
+  position: absolute;
+  width: 123px;
+  height: 25px;
+  left: 587px;
+  top: 585px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+
+.body-text .f7{
+  position: absolute;
+  width: 123px;
+  height: 25px;
+  left: 874px;
+  top: 585px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+  
+}
+
+.body-text .f8{
+  position: absolute;
+  width: 65px;
+  height: 25px;
+  left: 1192px;
+  top: 585px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+
+button{
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  left: 720px;
+  top: 600px;
+  cursor: pointer;
+  background: #000000;
+  border-radius: 2px;
+
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+button:hover{
+   background: #FFFFFF;
+   color: #000000;
+   transition: 0.5s;
+}
+
+.body-text .footer{
+  position: absolute;
+width: 250px;
+height: 19px;
+left: 244px;
+top: 630px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
